@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap");
-* {
+body {
   color: #343A40; }
 
 a {
@@ -41,5 +41,29 @@ header {
         font-size: 23px; }
       header ul li a:hover {
         color: initial; }
+
+nav.nav-produtos {
+  background: #343A40;
+  color: #fff; }
+  nav.nav-produtos li {
+    font-size: 18px;
+    position: relative;
+    padding: 10px 10px; }
+    nav.nav-produtos li:hover {
+      background: #222629; }
+      nav.nav-produtos li:hover ul.nav.flex-column {
+        display: block; }
+    nav.nav-produtos li ul.nav {
+      width: 100%;
+      border-top: 10px solid #FFC107;
+      background: #343A40;
+      text-indent: 20px;
+      z-index: 10;
+      display: none;
+      position: absolute;
+      top: 50px;
+      left: 0; }
+      nav.nav-produtos li ul.nav li a {
+        color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
