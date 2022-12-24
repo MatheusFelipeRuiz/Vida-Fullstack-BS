@@ -5,4 +5,41 @@
 a {
   text-decoration: none; }
 
+header {
+  background: #FFC107;
+  padding: 25px; }
+  header form {
+    position: relative; }
+    header form input[type='text'] {
+      width: 100%;
+      border: none;
+      border-radius: 20px;
+      padding: 10px 20px;
+      outline: none; }
+    header form button {
+      background: none;
+      border: none;
+      position: absolute;
+      right: 30px; }
+  header ul li {
+    position: relative; }
+    header ul li span.notificacao {
+      position: absolute;
+      color: #fff;
+      background: #FF0F9A;
+      font-size: 10px;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      bottom: 18px;
+      left: 4px; }
+    header ul li a {
+      font-size: 16px;
+      font-weight: bold;
+      color: #343A40; }
+      header ul li a svg {
+        font-size: 23px; }
+      header ul li a:hover {
+        color: initial; }
+
 /*# sourceMappingURL=style.css.map */
