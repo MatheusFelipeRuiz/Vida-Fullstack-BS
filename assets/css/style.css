@@ -1,4 +1,8 @@
-/* # Fontes */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap");
+* {
+  color: #343A40; }
+
+a {
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
