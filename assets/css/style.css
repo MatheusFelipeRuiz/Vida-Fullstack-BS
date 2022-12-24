@@ -105,4 +105,19 @@ nav.nav-produtos {
       .produtos .produtos-container .produtos-itens .produto-preco {
         font-size: 16px; }
 
+footer {
+  background: #343A40; }
+  footer .container {
+    padding: 20px 0; }
+    footer .container h4 {
+      color: #ffc107;
+      font-size: 19px; }
+    footer .container ul li {
+      color: #fff; }
+      footer .container ul li a {
+        color: #fff;
+        text-decoration: none; }
+        footer .container ul li a:hover {
+          color: #fff; }
+
 /*# sourceMappingURL=style.css.map */

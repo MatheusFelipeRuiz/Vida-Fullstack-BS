@@ -1,0 +1,23 @@
+footer {
+    background: $cor-secundaria;
+    .container {
+        padding: 20px 0;
+        h4 {
+            color: $cor-primaria;
+            font-size: 19px;
+        }
+    
+        ul {
+            li {
+                color:$branco;
+                a {
+                    color: $branco;
+                    text-decoration: none;
+                    &:hover {
+                        color: $branco;
+                    }
+                }
+            }
+        }
+    }
+}
