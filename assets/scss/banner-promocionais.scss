@@ -1,0 +1,34 @@
+@mixin banner-promocional ($bg-color, $bg-image) {
+    background-color: $bg-color;
+    background-image: url($bg-image);
+}
+
+.banners-promocionais {
+    margin: 30px auto;
+    .banner-promocional-12px {
+        @include banner-promocional($rosa,'../images/parcele-em-12x.jpg');
+    }
+    .banner-promocional-todo-brasil {
+        @include banner-promocional($roxo, '../images/entrega-para-todo-brasil.jpg')
+    }
+
+    .banner-promocional-12px,
+    .banner-promocional-todo-brasil {
+        background-size: cover;
+        height: 105px;
+        padding: 20px 60px;
+        color: $branco;
+    }
+
+    p {
+        margin-left: 20px;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 100%;
+        strong {
+            font-weight: bold;
+        }
+    }
+    
+}
+

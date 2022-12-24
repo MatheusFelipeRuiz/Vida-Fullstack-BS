@@ -6,7 +6,7 @@ a {
   text-decoration: none; }
 
 header {
-  background: #FFC107;
+  background: #ffc107;
   padding: 25px; }
   header form {
     position: relative; }
@@ -55,7 +55,7 @@ nav.nav-produtos {
         display: block; }
     nav.nav-produtos li ul.nav {
       width: 100%;
-      border-top: 10px solid #FFC107;
+      border-top: 10px solid #ffc107;
       background: #343A40;
       text-indent: 20px;
       z-index: 10;
@@ -65,5 +65,27 @@ nav.nav-produtos {
       left: 0; }
       nav.nav-produtos li ul.nav li a {
         color: #fff; }
+
+.banners-promocionais {
+  margin: 30px auto; }
+  .banners-promocionais .banner-promocional-12px {
+    background-color: #FF0F9A;
+    background-image: url("../images/parcele-em-12x.jpg"); }
+  .banners-promocionais .banner-promocional-todo-brasil {
+    background-color: #B343C3;
+    background-image: url("../images/entrega-para-todo-brasil.jpg"); }
+  .banners-promocionais .banner-promocional-12px,
+  .banners-promocionais .banner-promocional-todo-brasil {
+    background-size: cover;
+    height: 105px;
+    padding: 20px 60px;
+    color: #fff; }
+  .banners-promocionais p {
+    margin-left: 20px;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 100%; }
+    .banners-promocionais p strong {
+      font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
