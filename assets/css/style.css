@@ -5,6 +5,9 @@ body {
 a {
   text-decoration: none; }
 
+h1, h2, h3, h4, h5 {
+  font-weight: bold; }
+
 header {
   background: #ffc107;
   padding: 25px; }
@@ -87,5 +90,19 @@ nav.nav-produtos {
     line-height: 100%; }
     .banners-promocionais p strong {
       font-weight: bold; }
+
+.produtos {
+  margin: 30px auto; }
+  .produtos .produtos-container {
+    margin: 30px 0; }
+    .produtos .produtos-container .produtos-itens {
+      color: #343A40; }
+      .produtos .produtos-container .produtos-itens h2 {
+        margin: 5px auto;
+        font-size: 19px; }
+      .produtos .produtos-container .produtos-itens svg {
+        fill: #ffc107; }
+      .produtos .produtos-container .produtos-itens .produto-preco {
+        font-size: 16px; }
 
 /*# sourceMappingURL=style.css.map */
